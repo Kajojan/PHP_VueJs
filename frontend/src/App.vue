@@ -1,19 +1,17 @@
 <template>
   <Header/>
   <div id="body">
-    <MainPage/>
+    <router-view></router-view>
   </div>
   
 
 </template>
 
 <script>
-import MainPage from './components/MainPage.vue';
 import Header from './components/HeaderComponent.vue'
 export default {
   name: 'App',
   components:{
-    MainPage,
     Header
   }
 
