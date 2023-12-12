@@ -13,5 +13,6 @@ $client = new Google_Client();
 $client->setClientId($clientID);
 $client->setClientSecret($clientSecret);
 $client->setRedirectUri($redirectUri);
+$client->setScopes(['https://www.googleapis.com/auth/spreadsheets',    'https://www.googleapis.com/auth/drive.metadata.readonly']);
 $client->addScope("email");
 $client->addScope("profile");
