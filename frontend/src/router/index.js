@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '@/components/MainPage'
 import SpreadSheets from '@/components/SpreadSheets'
+import SpreadDetail from '@/components/SpreadDetail'
 
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     name: 'spreadsheets',
     props: true,
     component: SpreadSheets
+  },
+  {
+    path: '/details/:id',
+    name: 'details',
+    component: SpreadDetail
   },
 ]
 
