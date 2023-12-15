@@ -1,14 +1,19 @@
 <template>
     <div>
         <h1>Szczegóły</h1>
-        <p>{{ dataFromPHP }}</p>
+        <p v-for="spread in dataFromPHP" :key="spread.properties.index"> 
+          <button @click="goToDetails(spread.properties.index)" >{{ spread.properties.title }}</button>
+        </p>
       </div>
 </template>
 
 <script>
 import axios from "axios";
+import router from "../router"
 
 export default {
+  watch: {
+  },
   mounted() {
     this.loadDataFromPHP();
   },
@@ -20,17 +25,23 @@ export default {
   },)
         .then((response) => {
           this.dataFromPHP = response.data;
-          console.log(response);
+          console.log(response.data);
         })
         .catch((error) => {
           console.error("Error fetching data from PHP", error);
         });
+    },
+    goToDetails(id) {
+      router.push({
+        path: "/details/" + this.id + "/"+id
+      });
     },
   },
   data() {
     return {
       id: this.$route.params.id,
       dataFromPHP: null,
+      
     };
   }
 

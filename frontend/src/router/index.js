@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import MainPage from '@/components/MainPage'
 import SpreadSheets from '@/components/SpreadSheets'
 import SpreadDetail from '@/components/SpreadDetail'
+import SheetsDetail from '@/components/SheetsDetail'
+
 
 
 const routes = [
@@ -20,6 +22,11 @@ const routes = [
     path: '/details/:id',
     name: 'details',
     component: SpreadDetail
+  },
+  {
+    path: '/details/:id/:sheet',
+    name: 'sheets',
+    component: SheetsDetail
   },
 ]
 

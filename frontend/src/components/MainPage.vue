@@ -1,7 +1,6 @@
 <template>
   <div id="task">
-    <h2>Recuration task</h2>
-    
+    <h2> task</h2>
   </div>
 </template>
 
