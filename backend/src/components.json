@@ -1,0 +1,195 @@
+{
+    "components": [
+        {
+            "id": "rkD74cQm512p",
+            "ref": "73e635c6-ba7d-eb6f-b019-4f96cab57fc4",
+            "title": "Single choice question",
+            "properties": {
+                "description": "",
+                "country": "us",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": true,
+                "other_choice_label": "Other",
+                "horizontal_alignment": false
+            },
+            "media": false,
+            "validations": {
+                "required": false,
+                "max_select": "",
+                "min_select": ""
+            },
+            "type": "multiple_choice",
+            "choices": [
+                {
+                    "id": "wteCEvgkvjL1",
+                    "ref": "8b208cc1-6c6e-ea9b-66cc-16620a86dc85",
+                    "label": "Answer 1"
+                },
+                {
+                    "id": "PBsHQ8vhc9NT",
+                    "ref": "f385a638-69a5-747c-313a-15faf82227f3",
+                    "label": "Answer 2"
+                },
+                {
+                    "id": "w7IriChC3lPR",
+                    "ref": "cc0d335b-4508-518f-2689-5365c0d2c947",
+                    "label": "Answer 3"
+                }
+            ]
+        },
+        {
+            "id": "bbC4ZzilLAGC",
+            "ref": "0f646386-b0f4-542c-9035-cc266f9b430c",
+            "title": "Multiple choice question",
+            "properties": {
+                "description": "",
+                "country": "us",
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "other_choice_label": "Other",
+                "horizontal_alignment": false
+            },
+            "media": false,
+            "validations": {
+                "required": false,
+                "max_select": "",
+                "min_select": ""
+            },
+            "type": "multiple_choice",
+            "choices": [
+                {
+                    "id": "6j77mAUNBiw_",
+                    "ref": "e6cdcb5c-13fc-03ff-2472-235b8190a8b6",
+                    "label": "Answer 1"
+                },
+                {
+                    "id": "p4IQOQMBMAmi",
+                    "ref": "5681d677-e9ef-1ba8-43ff-5866d0e35bb2",
+                    "label": "Answer 2"
+                },
+                {
+                    "id": "rKp4LRaSBbte",
+                    "ref": "d98bed76-de6f-c374-e2de-8c170c53d4a6",
+                    "label": "Answer 3"
+                }
+            ]
+        },
+        {
+            "id": "kC2UpNQXu5sO",
+            "ref": "cdef40c5-f1d9-df4c-5fe3-5f6a24cec1a9",
+            "title": "How satisfied are you with your overall experience?",
+            "properties": {
+                "description": "",
+                "country": "us",
+                "icon": "emoji",
+                "icon_count": 5,
+                "orientation": "ltr",
+                "labels": [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "customer_sat"
+        },
+        {
+            "id": "MEU86ri53kdv",
+            "ref": "519ae7fd-a2a2-3344-e7df-6ba267bdc47f",
+            "title": "How would you rate the value for money of our products or services?",
+            "properties": {
+                "description": "",
+                "country": "us",
+                "icon": "numbers",
+                "icon_count": 5,
+                "orientation": "ltr",
+                "labels": [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "rating"
+        },
+        {
+            "id": "xj-44carz71w",
+            "ref": "aaa42d8d-170f-c91e-4498-c16c027f7b67",
+            "title": "Yes or no?",
+            "properties": {
+                "description": "",
+                "country": "us",
+                "answer_type": "thumbs"
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "yesno"
+        },
+        {
+            "id": "dIaVK_EhG2j8",
+            "ref": "c25c0652-683c-5060-e40d-dc69c8fd6ec6",
+            "title": "Enter your phone number",
+            "properties": {
+                "description": "",
+                "country": "us"
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "phone_number"
+        },
+        {
+            "id": "Qu6_JnRo48aF",
+            "ref": "7f01a245-c480-1461-58bc-1888529e9947",
+            "title": "Enter your e-mail address",
+            "properties": {
+                "description": "",
+                "country": "us"
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "mail"
+        },
+        {
+            "id": "Kr2n37mBgC_j",
+            "ref": "e1b7dd1b-4278-e4e3-5107-b8bcbf99dda2",
+            "title": "Enter your age",
+            "properties": {
+                "description": "",
+                "country": "us"
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "number"
+        },
+        {
+            "id": "DaJDBcVgirKd",
+            "ref": "4c197242-458b-bd36-57a9-819c3ba5743d",
+            "title": "Enter a date",
+            "properties": {
+                "description": "",
+                "country": "us"
+            },
+            "media": false,
+            "validations": {
+                "required": false
+            },
+            "type": "date"
+        }
+    ]
+}
