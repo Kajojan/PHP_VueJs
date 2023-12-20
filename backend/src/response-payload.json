@@ -1,0 +1,94 @@
+{
+    "answers": [
+        {
+            "component": {
+                "id": "rkD74cQm512p",
+                "type": "multiple_choice"
+            },
+            "type": "choices",
+            "choices": [
+                {
+                    "id": "PBsHQ8vhc9NT",
+                    "label": "Answer 2"
+                }
+            ]
+        },
+        {
+            "component": {
+                "id": "bbC4ZzilLAGC",
+                "type": "multiple_choice"
+            },
+            "type": "choices",
+            "choices": [
+                {
+                    "id": "6j77mAUNBiw_",
+                    "label": "Answer 1"
+                },
+                {
+                    "id": "p4IQOQMBMAmi",
+                    "label": "Answer 2"
+                }
+            ]
+        },
+        {
+            "component": {
+                "id": "kC2UpNQXu5sO",
+                "type": "customer_sat"
+            },
+            "type": "number",
+            "number": "3"
+        },
+        {
+            "component": {
+                "id": "MEU86ri53kdv",
+                "type": "rating"
+            },
+            "type": "number",
+            "number": "4"
+        },
+        {
+            "component": {
+                "id": "xj-44carz71w",
+                "type": "yesno"
+            },
+            "type": "boolean",
+            "boolean": true
+        },
+        {
+            "component": {
+                "id": "dIaVK_EhG2j8",
+                "type": "phone_number"
+            },
+            "type": "phone_number",
+            "phone_number": "+12015011234"
+        },
+        {
+            "component": {
+                "id": "Qu6_JnRo48aF",
+                "type": "mail"
+            },
+            "type": "mail",
+            "mail": "john@doe.com"
+        },
+        {
+            "component": {
+                "id": "Kr2n37mBgC_j",
+                "type": "number"
+            },
+            "type": "number",
+            "number": "34"
+        },
+        {
+            "component": {
+                "id": "DaJDBcVgirKd",
+                "type": "date"
+            },
+            "type": "date",
+            "date": "09/09/2003"
+        }
+    ],
+    "hidden": [],
+    "variables": [],
+    "startTime": "2023-11-03 15:44:20.487001",
+    "preview": false
+}
