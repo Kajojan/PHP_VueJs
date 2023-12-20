@@ -10,6 +10,8 @@
 import axios from "axios";
 import router from "../router"
 export default {
+  watch: {
+  },
   data() {
     return {
       dataFromPHP: null,
